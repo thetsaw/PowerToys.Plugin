@@ -150,10 +150,11 @@ namespace Community.PowerToys.Run.Plugin.DiskAnalyzer
             menus.Add(new ContextMenuResult
             {
                 PluginName = Name,
-                Title = "Open in File Explorer (Enter)",
+                Title = "Open in File Explorer (Ctrl+O)",
                 FontFamily = "Segoe Fluent Icons,Segoe MDL2 Assets",
                 Glyph = "\xE838", // FolderOpen
-                AcceleratorKey = Key.Enter,
+                AcceleratorKey = Key.O,
+                    AcceleratorModifiers = ModifierKeys.Control,
                 Action = _ =>
                 {
                     try
@@ -220,7 +221,7 @@ namespace Community.PowerToys.Run.Plugin.DiskAnalyzer
                     Title = "Scan this folder (Ctrl+Enter)",
                     FontFamily = "Segoe Fluent Icons,Segoe MDL2 Assets",
                     Glyph = "\xE721", // Search
-                    AcceleratorKey = Key.Enter,
+                    AcceleratorKey = Key.O,
                     AcceleratorModifiers = ModifierKeys.Control,
                     Action = _ =>
                     {
