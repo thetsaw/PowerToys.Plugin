@@ -9,8 +9,6 @@
 
 A [PowerToys Run](https://aka.ms/PowerToysOverview) plugin **and** a native Windows Command Palette extension that brings **TreeSize-like disk usage analysis** directly into your launcher — plus a full standalone GUI window. Instantly explore drive and folder sizes without leaving your keyboard.
 
-![PowerToys Run — help and commands](Images/ptrun-help-commands.png)
-
 ---
 
 ## Components
